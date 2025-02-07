@@ -1,9 +1,9 @@
-name: My First GitHub Actions
+name: Test the code
 
 on: [push]
 
 jobs:
-  build:
+  Test:
     runs-on: ubuntu-latest
 
     strategy:
